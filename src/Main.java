@@ -23,8 +23,25 @@ public class Main {
         if (speed <= 60) {
             System.out.println("Если скорость " + speed + " ,то можно ездить спокойно");
         }
+        System.out.println("Задание 4");
+        int people = 30;
+        if (people > 2 && people < 6) {
+            System.out.println("Если возраст человека равен " + people + " ,то ему нужно ходить в детский садик");
+        }
+        if (people > 7 && people < 17) {
+            System.out.println("Если возраст человека равен " + people + " ,то ему нужно ходить в школу");
+        }
+        if (people > 18 && people < 24) {
+            System.out.println("Если возраст человека равен " + people + " ,то ему нужно ходить в университет");
+        }
+        if (people > 24) {
+            System.out.println("Если возраст человека равен " + people + " ,то ему пора ходить на работу");
+        }
     }
 
 
 
     }
+
+
+
