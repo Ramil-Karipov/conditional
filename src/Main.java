@@ -61,13 +61,18 @@ public class Main {
             System.out.println("В вагоне нет свободных мест");
         }
         System.out.println("Задание 7");
+        int one;
+        int two;
+        int three;
+        if (one < two)
+
 
 
     }
 
 
 }
-    }
+
 
 
 
