@@ -48,8 +48,27 @@ public class Main {
         if (baby > 14) {
             System.out.println("Если возраст ребенка равен " + baby + ", то он может кататься без сопровождения взрослого");
         }
+        System.out.println("Задание 6");
+        int place = 79;
+        int placeSit = 60;
+        int placeTotal = 102;
+        if (place <= placeSit && place >= 1) {
+            System.out.println("В вагоне есть свободные сидячие места");
+        }
+        if (place > placeSit && place <= placeTotal) {
+            System.out.println("В вагоне есть свободные стоячие места");
+        } else {
+            System.out.println("В вагоне нет свободных мест");
+        }
+        System.out.println("Задание 7");
+
+
     }
+
+
+}
     }
+
 
 
 
