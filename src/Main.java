@@ -18,30 +18,42 @@ public class Main {
         System.out.println("Задание 3");
         int speed = 50;
         if (speed > 60) {
-            System.out.println("Если скорость " + speed + " ,то прийдется заплатить штраф");
+            System.out.println("Если скорость " + speed + ", то прийдется заплатить штраф");
         }
         if (speed <= 60) {
-            System.out.println("Если скорость " + speed + " ,то можно ездить спокойно");
+            System.out.println("Если скорость " + speed + ", то можно ездить спокойно");
         }
         System.out.println("Задание 4");
         int people = 30;
         if (people > 2 && people < 6) {
-            System.out.println("Если возраст человека равен " + people + " ,то ему нужно ходить в детский садик");
+            System.out.println("Если возраст человека равен " + people + ", то ему нужно ходить в детский садик");
         }
         if (people > 7 && people < 17) {
-            System.out.println("Если возраст человека равен " + people + " ,то ему нужно ходить в школу");
+            System.out.println("Если возраст человека равен " + people + ", то ему нужно ходить в школу");
         }
         if (people > 18 && people < 24) {
-            System.out.println("Если возраст человека равен " + people + " ,то ему нужно ходить в университет");
+            System.out.println("Если возраст человека равен " + people + ", то ему нужно ходить в университет");
         }
         if (people > 24) {
-            System.out.println("Если возраст человека равен " + people + " ,то ему пора ходить на работу");
+            System.out.println("Если возраст человека равен " + people + ", то ему пора ходить на работу");
+        }
+        System.out.println("Задание 5");
+        int baby = 16;
+        if (baby < 5) {
+            System.out.println("Если возраст ребенка равен " + baby + ", то ему запрещено кататься на аттракционе");
+        }
+        if (baby > 5 && baby < 14) {
+            System.out.println("Если возраст ребенка равен " + baby + ", то он может кататься только в сопровождении взрослого");
+        }
+        if (baby > 14) {
+            System.out.println("Если возраст ребенка равен " + baby + ", то он может кататься без сопровождения взрослого");
         }
     }
-
-
-
     }
+
+
+
+
 
 
 
