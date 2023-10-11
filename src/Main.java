@@ -2,10 +2,10 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Задание 1");
         int age = 10;
-        if (age>=18) {
+        if (age >= 18) {
             System.out.println("Если тебе " + age + " ты достиг совершеннолетия");
         }
-        if (age<18) {
+        if (age < 18) {
             System.out.println("Если тебе " + age + " ты не достиг совершеннолетия, нужно немного подождать");
         }
         System.out.println("Задание 2");
@@ -57,21 +57,39 @@ public class Main {
         }
         if (place > placeSit && place <= placeTotal) {
             System.out.println("В вагоне есть свободные стоячие места");
-        } else {
+        } else if (place > 0 && place < placeTotal) {
             System.out.println("В вагоне нет свободных мест");
         }
         System.out.println("Задание 7");
-        int one;
-        int two;
-        int three;
-        if (one < two)
+        int variable = 3;
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        if (three > one && three > two) {
+            System.out.println("Три больше чем один или два");
+        } else if (two > one && two < three) {
+            System.out.println("Два больше одного");
+        } else {
+            System.out.println("Один меньше двух и трёх");
 
-
+        }
 
     }
+    }
+        
+         
+            
+        
 
 
-}
+
+
+
+
+
+
+
+
 
 
 
